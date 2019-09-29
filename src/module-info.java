@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author sjshi
+ *
+ */
+module DesignPattern {
+}
