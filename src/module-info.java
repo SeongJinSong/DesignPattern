@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author sjshi
- *
- */
-module DesignPattern {
-}
