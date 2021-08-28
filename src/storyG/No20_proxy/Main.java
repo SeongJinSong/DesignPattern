@@ -2,8 +2,8 @@ package storyG.No20_proxy;
 
 public class Main {
 	/*
-	 * ´ë¸®ÀÎ
-	 * ÇÁ·Ï½Ã ÆĞÅÏÀ» ÅëÇØ ÀÛ¾÷À» ³ª´²¼­ ±¸ÇöÇÒ ¼ö ÀÖ´Ù.
+	 * ëŒ€ë¦¬ì¸
+	 * í”„ë¡ì‹œ íŒ¨í„´ì„ í†µí•´ ì‘ì—…ì„ ë‚˜ëˆ ì„œ êµ¬í˜„í•  ìˆ˜ ìˆë‹¤.
 	 */
 	public static void main(String[] args) {
 		Subject real = new RealSubject();

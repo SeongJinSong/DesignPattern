@@ -1,6 +1,6 @@
 package storyG.No14_facade.system;
 
-/*µğÆúÆ® Á¦ÇÑÀÌ µÇ¾î¼­ °°Àº ÆĞÅ°Áö¸¸ Á¢±Ù °¡´ÉÇÏ°Ô µÈ´Ù.*/
+/*ë””í´íŠ¸ ì œí•œì´ ë˜ì–´ì„œ ê°™ì€ íŒ¨í‚¤ì§€ë§Œ ì ‘ê·¼ ê°€ëŠ¥í•˜ê²Œ ëœë‹¤.*/
 class HelpSystem01 {
 	public HelpSystem01() {
 		System.out.println("Call Constructor : "+getClass().getSimpleName());

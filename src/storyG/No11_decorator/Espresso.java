@@ -1,9 +1,9 @@
 package storyG.No11_decorator;
 
-/* ½ÇÁúÀûÀÎ Àå½Ä ÀÎ½ºÅÏ½º ¹× Á¤ÀÇÀÇ¸ç, Ã¥ÀÓÀÌ Ãß°¡µÇ´Â ºÎºĞ*/
+/* ì‹¤ì§ˆì ì¸ ì¥ì‹ ì¸ìŠ¤í„´ìŠ¤ ë° ì •ì˜ì˜ë©°, ì±…ì„ì´ ì¶”ê°€ë˜ëŠ” ë¶€ë¶„*/
 public class Espresso extends AbstAdding {
 	
-	/*¿Ö staticÀ¸·Î ÇßÀ»±î?*/
+	/*ì™œ staticìœ¼ë¡œ í–ˆì„ê¹Œ?*/
 	static protected int espressoCount = 0;
 	
 	public Espresso(IBeverage base) {
@@ -14,7 +14,7 @@ public class Espresso extends AbstAdding {
 		return super.getTotalPrice()+getAddPrice();
 	}
 	
-	/* ¿¡½ºÇÁ·¹½º Ãß°¡°¡°İ */
+	/* ì—ìŠ¤í”„ë ˆìŠ¤ ì¶”ê°€ê°€ê²© */
 	private static int getAddPrice() {
 		espressoCount+=1;
 		int addPrice = 100;

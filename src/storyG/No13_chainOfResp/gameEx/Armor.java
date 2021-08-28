@@ -13,8 +13,8 @@ public class Armor implements Defense {
 	@Override
 	public void defense(Attack attack) {
 		
-		/*  Æ÷ÀÎÆ®
-		 *  1. ÇÏ³ªÀÇ °´Ã¼¸¸ Ã¥ÀÓÀ» ÁöÁö ¾Ê¾Æµµ µÈ´Ù.
+		/*  í¬ì¸íŠ¸
+		 *  1. í•˜ë‚˜ì˜ ê°ì²´ë§Œ ì±…ì„ì„ ì§€ì§€ ì•Šì•„ë„ ëœë‹¤.
 		 *  2. 
 		 */
 		process(attack);

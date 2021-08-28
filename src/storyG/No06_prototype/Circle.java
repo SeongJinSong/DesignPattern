@@ -35,7 +35,7 @@ public class Circle extends Shape{
 	}
 	public Circle copy() throws CloneNotSupportedException  {
 		Circle circle = (Circle) clone();
-		// »õ·Î ¸¸µç copy°¡ °ãÄ¡Áö ¾Ê°Ô ÇØ´Ş¶ó´Â ¿ä±¸»çÇ×
+		// ìƒˆë¡œ ë§Œë“  copyê°€ ê²¹ì¹˜ì§€ ì•Šê²Œ í•´ë‹¬ë¼ëŠ” ìš”êµ¬ì‚¬í•­
 		circle.x = x+1;
 		circle.y = y+1;
 		

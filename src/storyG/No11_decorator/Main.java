@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	/*
-	 * µ¿ÀûÀ¸·Î Ã¥ÀÓÃß°¡°¡ ÇÊ¿äÇÒ ¶§ µ¥ÄÚ·¹ÀÌÅÍ ÆĞÅÏÀ» »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+	 * ë™ì ìœ¼ë¡œ ì±…ì„ì¶”ê°€ê°€ í•„ìš”í•  ë•Œ ë°ì½”ë ˆì´í„° íŒ¨í„´ì„ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -13,8 +13,8 @@ public class Main {
 		IBeverage beverage = new Base();
 		boolean done = false;
 		while(!done) {
-			System.out.println("À½·á ÇöÀç °¡°İ:"+beverage.getTotalPrice());
-			System.out.println("¼±ÅÃ: 1:¼¦ Ãß°¡ / 2:¿ìÀ¯ Ãß°¡");
+			System.out.println("ìŒë£Œ í˜„ì¬ ê°€ê²©:"+beverage.getTotalPrice());
+			System.out.println("ì„ íƒ: 1:ìƒ· ì¶”ê°€ / 2:ìš°ìœ  ì¶”ê°€");
 			switch(sc.nextInt()) {
 			case 0: 
 				done = true;
@@ -27,7 +27,7 @@ public class Main {
 				break;
 			}
 		}
-		System.out.println("À½·á °¡°İ:"+beverage.getTotalPrice());
+		System.out.println("ìŒë£Œ ê°€ê²©:"+beverage.getTotalPrice());
 		sc.close();
 	}
 }

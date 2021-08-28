@@ -5,6 +5,6 @@ import storyG.No04_factoryM.framework.Item;
 public class MpPotion implements Item {
 	public void use() {
 		// TODO Auto-generated method stub
-		System.out.println("¸¶·Â È¸º¹!");
+		System.out.println("ë§ˆë ¥ íšŒë³µ!");
 	}	
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
 	/*
-	 * ¸í·É°ú °´Ã¼È­ µÇ¾ú±â ¶§¹®¿¡ ´Ù¾çÇÑ ¸ğµ¨À» ¸¸µé ¼ö ÀÖ´Ù´Â ÀåÁ¡ÀÌ ÀÖ´Ù.
+	 * ëª…ë ¹ê³¼ ê°ì²´í™” ë˜ì—ˆê¸° ë•Œë¬¸ì— ë‹¤ì–‘í•œ ëª¨ë¸ì„ ë§Œë“¤ ìˆ˜ ìˆë‹¤ëŠ” ì¥ì ì´ ìˆë‹¤.
 	 */
 	public static void main(String[] args) {
 		List<Command> list = new LinkedList<>();
@@ -14,7 +14,7 @@ public class Main {
 			
 			@Override
 			public void execute() {
-				System.out.println("ÀÛ¾÷ 1");
+				System.out.println("ì‘ì—… 1");
 			}
 			@Override
 			public int compareTo(Command var1) {
@@ -27,7 +27,7 @@ public class Main {
 			
 			@Override
 			public void execute() {
-				System.out.println("ÀÛ¾÷ 2");
+				System.out.println("ì‘ì—… 2");
 			}
 			@Override
 			public int compareTo(Command var1) {
@@ -40,7 +40,7 @@ public class Main {
 			
 			@Override
 			public void execute() {
-				System.out.println("ÀÛ¾÷ 3");
+				System.out.println("ì‘ì—… 3");
 			}
 			@Override
 			public int compareTo(Command var1) {

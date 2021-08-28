@@ -3,11 +3,11 @@ package storyG.No09_bridge.pattern;
 public class flashMCF implements MorseCodeFunction {
 	@Override
 	public void dot() {
-		System.out.print("¹øÂ½~");
+		System.out.print("ë²ˆì©~");
 	}
 	@Override
 	public void dash() {
-		System.out.print("¹İÂ¦~");
+		System.out.print("ë°˜ì§~");
 	}
 	@Override
 	public void space() {

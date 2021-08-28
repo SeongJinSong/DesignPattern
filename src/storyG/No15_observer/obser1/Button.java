@@ -2,7 +2,7 @@ package storyG.No15_observer.obser1;
 
 public class Button {
 	public void onClick() {
-		//�̺�Ʈ ó��
+		//이벤트 처리
 		if(onClickOListener != null) {
 			onClickOListener.onClick(this);
 		}

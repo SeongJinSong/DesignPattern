@@ -2,9 +2,9 @@ package storyG.No19_flyweight;
 
 public class Main {
 	/*
-	 * ÇÃ¶óÀÌ¿şÀÌÆ® ÆĞÅÏÀ» ÅëÇØ ¸Ş¸ğ¸® °ø°£À» Àı¾à ÇÒ ¼ö ÀÖ´Ù.
+	 * í”Œë¼ì´ì›¨ì´íŠ¸ íŒ¨í„´ì„ í†µí•´ ë©”ëª¨ë¦¬ ê³µê°„ì„ ì ˆì•½ í•  ìˆ˜ ìˆë‹¤.
 	 * 
-	 * ÀÚÁÖ »ç¿ëÇÏ´Â °´Ã¼¸¦ pool¿¡ ´ã¾Ò´Ù°¡ Àç»ç¿ë
+	 * ìì£¼ ì‚¬ìš©í•˜ëŠ” ê°ì²´ë¥¼ poolì— ë‹´ì•˜ë‹¤ê°€ ì¬ì‚¬ìš©
 	 */
 	public static void main(String[] args) {
 		FlyWeightFactory factory = new FlyWeightFactory();

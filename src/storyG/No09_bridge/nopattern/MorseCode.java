@@ -2,7 +2,7 @@ package storyG.No09_bridge.nopattern;
 
 public class MorseCode {
 	public void dot() {
-		System.out.print("£ª");
+		System.out.print("ï¼Š");
 		//System.call.Bip();
 	}
 	public void dash() {

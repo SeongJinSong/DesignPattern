@@ -3,7 +3,7 @@ package storyG.No02_adapter;
 public class Main {
 	public static void main(String[] args) {
 		Adapter adapter = new AdapterImpl();
-		//¼öÁ¤»çÇ×ÀÌ ÀÖÀ¸¸é adapterImpl¿¡¼­ º¯°æÇÑ´Ù.
+		//ìˆ˜ì •ì‚¬í•­ì´ ìˆìœ¼ë©´ adapterImplì—ì„œ ë³€ê²½í•œë‹¤.
 		System.out.println(adapter.twiceOf(100f));
 		System.out.println(adapter.halfOf(100f));
 	}

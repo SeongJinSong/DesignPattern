@@ -7,7 +7,7 @@ import storyG.No16_mediator.mediator.ChatMediator;
 
 public class Main {
 	/*
-	 * ¹Ìµğ¿¡ÀÌÅÍ ÆĞÅÏÀ» ÅëÇØ º¹ÀâÇÑ °ü°è¸¦ °£´ÜÇÑ °ü°è·Î ±¸ÇöÇÑ´Ù.
+	 * ë¯¸ë””ì—ì´í„° íŒ¨í„´ì„ í†µí•´ ë³µì¡í•œ ê´€ê³„ë¥¼ ê°„ë‹¨í•œ ê´€ê³„ë¡œ êµ¬í˜„í•œë‹¤.
 	 */
 	public static void main(String[] args) {
 		Mediator mediator = new ChatMediator();

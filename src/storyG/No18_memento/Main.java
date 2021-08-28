@@ -7,10 +7,10 @@ import storyG.No18_memento.org.Originator;
 
 public class Main {
 	/*
-	 * Á¤ÀÇ : ±â³äÇ°, À¯Ç°, Ãß¾ï°Å¸®
-	 * ÇĞ½À ¸ñÇ¥
-	 * - ¸Ş¸àÅä ÆĞÅÏÀ» ÅëÇØ °´Ã¼ÀÇ »óÅÂ¸¦ ÀúÀåÇÏ°í ÀÌÀü»óÅÂ·Î º¹±¸ÇÑ´Ù.
-	 * - Á¢±ÙÁ¦ÇÑÀÚ protectedÀÇ »ç¿ëÀ» ÀÌÇØÇÑ´Ù.
+	 * ì •ì˜ : ê¸°ë…í’ˆ, ìœ í’ˆ, ì¶”ì–µê±°ë¦¬
+	 * í•™ìŠµ ëª©í‘œ
+	 * - ë©”ë©˜í†  íŒ¨í„´ì„ í†µí•´ ê°ì²´ì˜ ìƒíƒœë¥¼ ì €ì¥í•˜ê³  ì´ì „ìƒíƒœë¡œ ë³µêµ¬í•œë‹¤.
+	 * - ì ‘ê·¼ì œí•œì protectedì˜ ì‚¬ìš©ì„ ì´í•´í•œë‹¤.
 	 */
 	public static void main(String[] args) {
 		//Care Taker
@@ -21,7 +21,7 @@ public class Main {
 		originator.setState("state 1");
 		mementos.push(originator.createMemento());
 		
-		//protected´Â ÀÚ±â°¡ »ó¼Ó¹ŞÀ» °´Ã¼ È¤Àº °°Àº ÆĞÅ°Áö ³»¿¡¼­¸¸ Á¢±ÙÀÌ °¡´ÉÇÏ´Ù.
+		//protectedëŠ” ìê¸°ê°€ ìƒì†ë°›ì„ ê°ì²´ í˜¹ì€ ê°™ì€ íŒ¨í‚¤ì§€ ë‚´ì—ì„œë§Œ ì ‘ê·¼ì´ ê°€ëŠ¥í•˜ë‹¤.
 		//Memento memento = new Memento("state something");
 		//mementos.push(memento);
 		

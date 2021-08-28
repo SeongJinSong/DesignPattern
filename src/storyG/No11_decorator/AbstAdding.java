@@ -1,6 +1,6 @@
 package storyG.No11_decorator;
 
-/* µ¥ÄÚ·¹ÀÌÅÍ */
+/* ë°ì½”ë ˆì´í„° */
 public class AbstAdding implements IBeverage {
 	private IBeverage base;
 	

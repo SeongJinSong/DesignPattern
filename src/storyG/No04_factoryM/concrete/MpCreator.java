@@ -10,15 +10,15 @@ public class MpCreator  extends ItemCreator {
 	@Override
 	protected void requestItemsInfo() {
 		// TODO Auto-generated method stub
-		System.out.println("µ¥ÀÌÅÍº£ÀÌ½º¿¡¼­ ¸¶·Â È¸º¹ ¹°¾àÀÇ Á¤º¸¸¦ °¡Á®¿É´Ï´Ù.");
-		System.out.println("µ¥ÀÌÅÍ º£ÀÌ½º¿¡ ¶Ç Á¢±Ù"); 
-		//±¸Á¶¿Í ±¸Çö ºĞ¸®¸¦  --> mainÇÔ¼ö ¼öÁ¤ ÇÊ¿ä¾øÀ½
+		System.out.println("ë°ì´í„°ë² ì´ìŠ¤ì—ì„œ ë§ˆë ¥ íšŒë³µ ë¬¼ì•½ì˜ ì •ë³´ë¥¼ ê°€ì ¸ì˜µë‹ˆë‹¤.");
+		System.out.println("ë°ì´í„° ë² ì´ìŠ¤ì— ë˜ ì ‘ê·¼"); 
+		//êµ¬ì¡°ì™€ êµ¬í˜„ ë¶„ë¦¬ë¥¼  --> mainí•¨ìˆ˜ ìˆ˜ì • í•„ìš”ì—†ìŒ
 	}
 
 	@Override
 	protected void createItemLog() {
 		// TODO Auto-generated method stub
-		System.out.println("¸¶·Â È¸º¹ ¹°¾àÀ» »õ·Î »ı¼ºÇß½À´Ï´Ù."+new Date());
+		System.out.println("ë§ˆë ¥ íšŒë³µ ë¬¼ì•½ì„ ìƒˆë¡œ ìƒì„±í–ˆìŠµë‹ˆë‹¤."+new Date());
 	}
 
 	@Override

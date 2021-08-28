@@ -2,11 +2,11 @@ package storyG.No06_prototype;
 
 public class Main {
 	/* Prototype Pattern
-	 * »ý»ê ºñ¿ëÀÌ ³ô¤·Ãù ÀÎ½ºÅÏ½º¸¦ º¹»ç¸¦ ÅëÇØ¼­ ½±°Ô »ý¼º ÇÒ ¼ö ÀÖµµ·Ï ÇÏ´Â ÆÐÅÏ 
+	 * ìƒì‚° ë¹„ìš©ì´ ë†’ã…‡ì¸¤ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë³µì‚¬ë¥¼ í†µí•´ì„œ ì‰½ê²Œ ìƒì„± í•  ìˆ˜ ìžˆë„ë¡ í•˜ëŠ” íŒ¨í„´ 
 	 * 
-	 * »ý»ê ºñ¿ëÀÌ ³ôÀº °æ¿ì
-	 * 1. Á¾·ù°¡ ³Ê¹« ¸¹¾Æ¼­ Å¬·¡½º·Î Á¤¸®µÇÁö ¾Ê´Â °æ¿ì
-	 * 2. Å¬·¡½º·ÎºÎÅÍ ÀÎ½ºÅÏ½º »ý¼ºÀÌ ¾î·Á¿î °æ¿ì
+	 * ìƒì‚° ë¹„ìš©ì´ ë†’ì€ ê²½ìš°
+	 * 1. ì¢…ë¥˜ê°€ ë„ˆë¬´ ë§Žì•„ì„œ í´ëž˜ìŠ¤ë¡œ ì •ë¦¬ë˜ì§€ ì•ŠëŠ” ê²½ìš°
+	 * 2. í´ëž˜ìŠ¤ë¡œë¶€í„° ì¸ìŠ¤í„´ìŠ¤ ìƒì„±ì´ ì–´ë ¤ìš´ ê²½ìš°
 	 */
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Circle circle1 = new Circle(1, 1, 3);

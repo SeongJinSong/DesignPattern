@@ -2,7 +2,7 @@ package storyG.No07_builder;
 
 public class Main {
 	/* Buulder Pattern
-	 * º¹ÀâÇÑ ´Ü°è¸¦ °ÅÃÄ¾ß »ı¼ºµÇ´Â °´Ã¼ÀÇ ±¸ÇöÀ» ¼­ºê Å¬·¡½º¿¡°Ô ³Ñ°ÜÁÖ´Â ÆĞÅÏ
+	 * ë³µì¡í•œ ë‹¨ê³„ë¥¼ ê±°ì³ì•¼ ìƒì„±ë˜ëŠ” ê°ì²´ì˜ êµ¬í˜„ì„ ì„œë¸Œ í´ë˜ìŠ¤ì—ê²Œ ë„˜ê²¨ì£¼ëŠ” íŒ¨í„´
 	 */
 	public static void main(String[] args) {
 		//Computer computer = new Computer("i7", "16g", "256g ssd");

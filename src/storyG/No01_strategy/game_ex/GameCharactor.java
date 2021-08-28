@@ -1,16 +1,16 @@
 package storyG.No01_strategy.game_ex;
 
 public class GameCharactor {
-	//Á¢±ÙÁ¡
+	//ì ‘ê·¼ì 
 	private Weapon weapon;
 	
-	//±³È¯ °¡´É
+	//êµí™˜ ê°€ëŠ¥
 	public void setWeapon(Weapon weapon) {
 		this.weapon = weapon;
 	}
 	public void attack() {
 		if(weapon == null) {
-			System.out.println("¸Ç¼Õ °ø°İ");
+			System.out.println("ë§¨ì† ê³µê²©");
 		}
 		else
 			weapon.attack();

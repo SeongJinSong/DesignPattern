@@ -1,8 +1,8 @@
 package storyG.No13_chainOfResp;
 
 public abstract class Calculator {
-	private Calculator nextCalculator; //ÀÚ½ÅÀÌ ¸ÕÀú Ã³¸®
-	private Calculator preCalculator; //´Ù¸¥°Ô ¸ÕÀú Ã³¸®
+	private Calculator nextCalculator; //ìì‹ ì´ ë¨¼ì € ì²˜ë¦¬
+	private Calculator preCalculator; //ë‹¤ë¥¸ê²Œ ë¨¼ì € ì²˜ë¦¬
 	
 	public void setNextCalculator(Calculator nextCalculator) {
 		this.nextCalculator = nextCalculator;

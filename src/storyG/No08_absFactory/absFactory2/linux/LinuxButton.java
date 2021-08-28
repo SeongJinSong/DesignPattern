@@ -7,7 +7,7 @@ public class LinuxButton implements Button {
 	@Override
 	public void Click() {
 		// TODO Auto-generated method stub
-		System.out.println("¸®´ª½º ¹öÆ°");
+		System.out.println("ë¦¬ëˆ…ìŠ¤ ë²„íŠ¼");
 	}
 
 }

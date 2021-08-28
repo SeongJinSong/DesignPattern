@@ -6,33 +6,33 @@ public abstract class AbstGameConnectHelper {
 	protected abstract int autorization(String userName);
 	protected abstract String connection(String info);
 	
-	//ÅÛÇÃ¸´ ¸Ş¼Òµå
+	//í…œí”Œë¦¿ ë©”ì†Œë“œ
 	public String requestConnection(String encodedInfo) {
-		//º¸¾È°úÁ¤ -> ¾ÏÈ£È­ µÈ ¹®ÀÚ¿­À» º¹È£È­
+		//ë³´ì•ˆê³¼ì • -> ì•”í˜¸í™” ëœ ë¬¸ìì—´ì„ ë³µí˜¸í™”
 		String decodedInfo = doSecurity(encodedInfo);
-		//¹İÈ¯µÈ °ÍÀ» °¡Áö°í ¾ÆÀÌµğ, ¾ÏÈ£¸¦ ÇÒ´çÇÑ´Ù.
+		//ë°˜í™˜ëœ ê²ƒì„ ê°€ì§€ê³  ì•„ì´ë””, ì•”í˜¸ë¥¼ í• ë‹¹í•œë‹¤.
 		String id = "id";
 		String password ="pw";
-		//ÀÎÁõ°úÁ¤ -> ID¿Í PW È®ÀÎ
+		//ì¸ì¦ê³¼ì • -> IDì™€ PW í™•ì¸
 		if(!authentication(id, password)) {
-			throw new Error("¾ÆÀÌµğ ¾ÏÈ£ ºÒÀÏÄ¡");
+			throw new Error("ì•„ì´ë”” ì•”í˜¸ ë¶ˆì¼ì¹˜");
 		}
 		
 		String userName = "userNm";
-		//±ÇÇÑ
+		//ê¶Œí•œ
 		int i = autorization(userName);
 		switch(i) {
 		case -1:
-			throw new Error("¼Ë´Ù¿î");
-		case 0: // °ÔÀÓ ¸Å´ÏÀú
+			throw new Error("ì…§ë‹¤ìš´");
+		case 0: // ê²Œì„ ë§¤ë‹ˆì €
 			break;
-		case 1: // À¯·á È¸¿ø
+		case 1: // ìœ ë£Œ íšŒì›
 			break;
-		case 2: // ¹«·á È¸¿ø
+		case 2: // ë¬´ë£Œ íšŒì›
 			break;
-		case 3: // ±ÇÇÑ ¾øÀ½
+		case 3: // ê¶Œí•œ ì—†ìŒ
 			break;
-		default: // ±âÅ¸ »óÈ²
+		default: // ê¸°íƒ€ ìƒí™©
 			break;
 		}
 		return connection(decodedInfo);

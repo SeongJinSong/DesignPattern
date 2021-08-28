@@ -8,8 +8,8 @@ public class ChatMediator extends Mediator{
 	public void mediate(String data) {
 		// TODO Auto-generated method stub
 		for(Colleague colleague : colleagues) {
-			//ÁßÀç °¡´É¼º ÀÖ´Â Á¤º¸
-			//±Ó¸» µî
+			//ì¤‘ì¬ ê°€ëŠ¥ì„± ìˆëŠ” ì •ë³´
+			//ê·“ë§ ë“±
 			colleague.handle(data);
 		}
 	}

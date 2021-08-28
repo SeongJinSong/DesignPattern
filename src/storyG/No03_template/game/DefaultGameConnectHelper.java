@@ -4,28 +4,28 @@ public class DefaultGameConnectHelper extends AbstGameConnectHelper {
 
 	@Override
 	protected String doSecurity(String string) {
-		System.out.println("µğÄÚµå");
+		System.out.println("ë””ì½”ë“œ");
 		return null;
 	}
 
 	@Override
 	protected boolean authentication(String id, String password) {
-		System.out.println("¾ÆÀÌµğ/¾ÏÈ£ È®ÀÎ °úÁ¤");
+		System.out.println("ì•„ì´ë””/ì•”í˜¸ í™•ì¸ ê³¼ì •");
 		return false;
 	}
 
 	@Override
 	protected int autorization(String userName) {
-		System.out.println("±ÇÇÑ È®ÀÎ");
-		// ¼­¹ö¿¡¼­ À¯ÀúÀÌ¸§ À¯Àú ³ªÀÌ¸¦ ¾Ë ¼ö ÀÖ´Ù.
-		// ³ªÀÌ¸¦ È®ÀÎÇÏ°í ½Ã°£À» È®ÀÎÇÏ°í ¼ºÀÎÀÌ ¾Æ´Ï°í 10½Ã°¡ Áö³µ´Ù¸é
-		// ±ÇÇÑÀÌ ¾ø´Â °ÍÀ¸·Î ÇÑ´Ù.
+		System.out.println("ê¶Œí•œ í™•ì¸");
+		// ì„œë²„ì—ì„œ ìœ ì €ì´ë¦„ ìœ ì € ë‚˜ì´ë¥¼ ì•Œ ìˆ˜ ìˆë‹¤.
+		// ë‚˜ì´ë¥¼ í™•ì¸í•˜ê³  ì‹œê°„ì„ í™•ì¸í•˜ê³  ì„±ì¸ì´ ì•„ë‹ˆê³  10ì‹œê°€ ì§€ë‚¬ë‹¤ë©´
+		// ê¶Œí•œì´ ì—†ëŠ” ê²ƒìœ¼ë¡œ í•œë‹¤.
 		return 0;
 	}
 
 	@Override
 	protected String connection(String info) {
-		System.out.println("¸¶Áö¸· Á¢¼Ó ´Ü°è!");
+		System.out.println("ë§ˆì§€ë§‰ ì ‘ì† ë‹¨ê³„!");
 		return null;
 	}
 

@@ -17,10 +17,10 @@ public class FlyWeightFactory {
 			flyWeight = new FlyWeight(key);
 			
 			pool.put(key, flyWeight);
-			System.out.println("»õ·Î »ı¼º " + key);
+			System.out.println("ìƒˆë¡œ ìƒì„± " + key);
 		}
 		else {
-			System.out.println("Àç»ç¿ë " + key);
+			System.out.println("ì¬ì‚¬ìš© " + key);
 		}
 		return flyWeight;
 	}

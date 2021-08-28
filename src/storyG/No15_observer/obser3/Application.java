@@ -4,9 +4,9 @@ import storyG.No15_observer.obser3.Observable.Observer;
 
 public class Application {
 	/*
-	 * 1.Á¦³×¸¯ 
-	 * 2.µ¨¸®°ÔÀÌÆ®
-	 * 3.³»ºÎ¿¡ ¿ÉÀú¹ö¸¦ ³Ö´Â´Ù.
+	 * 1.ì œë„¤ë¦­ 
+	 * 2.ë¸ë¦¬ê²Œì´íŠ¸
+	 * 3.ë‚´ë¶€ì— ì˜µì €ë²„ë¥¼ ë„£ëŠ”ë‹¤.
 	 */
 	public static void main(String[] args) {
 		Button button = new Button();

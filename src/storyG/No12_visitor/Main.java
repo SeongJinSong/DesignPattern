@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Main {
 	/*
-	 * ¹æ¹®ÀÚ ÆĞÅÏÀ» ÀÌ¿ëÇÏ¿© °´Ã¼¿¡¼­ Ã³¸®¸¦ ºĞ¸®ÇØ¼­ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
-	 * °´Ã¼(class), Ã³¸®(method), ºĞ¸®
+	 * ë°©ë¬¸ì íŒ¨í„´ì„ ì´ìš©í•˜ì—¬ ê°ì²´ì—ì„œ ì²˜ë¦¬ë¥¼ ë¶„ë¦¬í•´ì„œ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.
+	 * ê°ì²´(class), ì²˜ë¦¬(method), ë¶„ë¦¬
 	 */
 	public static void main(String[] args) {
 		ArrayList<Visitable> visitables = new ArrayList<>();

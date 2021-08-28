@@ -7,7 +7,7 @@ public class MacTextArea implements TextArea{
 	@Override
 	public String getText() {
 		// TODO Auto-generated method stub
-		return "¸Æ ÅØ½ºÆ® ¿¡¾î¸®¾î";
+		return "ë§¥ í…ìŠ¤íŠ¸ ì—ì–´ë¦¬ì–´";
 	}
 
 }

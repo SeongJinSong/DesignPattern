@@ -4,17 +4,17 @@ public class AdapterImpl implements Adapter {
 
 	@Override
 	public Float twiceOf(Float f) {
-		//±âÁ¸ ¾Ë°í¸®Áò
+		//ê¸°ì¡´ ì•Œê³ ë¦¬ì¦˜
 		//return (float)Math.towTime(f);
 		
-		//°­È­µÈ ¾Ë°í¸®Áò
+		//ê°•í™”ëœ ì•Œê³ ë¦¬ì¦˜
 		return Math.doubled(f.doubleValue()).floatValue();
 	}
 
 	@Override
 	public Float halfOf(Float f) {
-		System.out.println("Àı¹İÇÔ¼öÈ£Ãâ");
-		//mainÇÔ¼ö¿Í ¶óÀÌºê·¯¸®¸¦ ¼öÁ¤ÇÏÁö ¾Ê°í ·Î±×»ğÀÏÀ» ÇÒ ¼ö ÀÖ´Ù.
+		System.out.println("ì ˆë°˜í•¨ìˆ˜í˜¸ì¶œ");
+		//mainí•¨ìˆ˜ì™€ ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ìˆ˜ì •í•˜ì§€ ì•Šê³  ë¡œê·¸ì‚½ì¼ì„ í•  ìˆ˜ ìˆë‹¤.
 		return (float)Math.half(f);
 	}
 

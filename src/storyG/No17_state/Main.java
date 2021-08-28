@@ -2,10 +2,10 @@ package storyG.No17_state;
 
 public class Main {
 	/*
-	 * »óÅÂ ÆÐÅÏÀ» ÅëÇØ »óÅÂ¸¦ °´Ã¼·Î ³ªÅ¸³»°í Çàµ¿À» ±¸ÇöÇÑ´Ù.
-	 * °´Ã¼, »óÅÂ, Çàµ¿
+	 * ìƒíƒœ íŒ¨í„´ì„ í†µí•´ ìƒíƒœë¥¼ ê°ì²´ë¡œ ë‚˜íƒ€ë‚´ê³  í–‰ë™ì„ êµ¬í˜„í•œë‹¤.
+	 * ê°ì²´, ìƒíƒœ, í–‰ë™
 	 * 
-	 * Àü·«ÆÐÅÏ°ú ºñ½ÁÇÑ ±¸Á¶Áö¸¸, »óÅÂ¿¡ µû¶ó¼­ µ¿ÀÛÀÌ ´Ù¸£°í µ¿ÀÛÀÌ »óÅÂ¿¡ ¿µÇâÀ» ¹Þ´Â´Ù´Â »ç½ÇÀÌ ´Ù¸£´Ù.
+	 * ì „ëžµíŒ¨í„´ê³¼ ë¹„ìŠ·í•œ êµ¬ì¡°ì§€ë§Œ, ìƒíƒœì— ë”°ë¼ì„œ ë™ìž‘ì´ ë‹¤ë¥´ê³  ë™ìž‘ì´ ìƒíƒœì— ì˜í–¥ì„ ë°›ëŠ”ë‹¤ëŠ” ì‚¬ì‹¤ì´ ë‹¤ë¥´ë‹¤.
 	 */
 	public static void main(String[] args) {
 		Light light = new Light();

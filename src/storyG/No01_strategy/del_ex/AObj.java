@@ -10,7 +10,7 @@ public class AObj {
 	}
 	public void funcAA() {
 		
-		//À§ÀÓÇÑ´Ù
+		//ìœ„ìž„í•œë‹¤
 		ainterface.funcA();
 		ainterface.funcA();
 	}

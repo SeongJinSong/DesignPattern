@@ -5,28 +5,28 @@ import storyG.No03_template.game.DefaultGameConnectHelper;
 
 public class Main {
 	public static void main(String[] args) {
-		/* ÅÛÇÃ¸´ ¸Þ¼Òµå ÆÐÅÏ
+		/* í…œí”Œë¦¿ ë©”ì†Œë“œ íŒ¨í„´
 		 * 
-		 * ¾Ë°í¸®ÁòÀÇ ±¸Á¶¸¦ ¸Þ¼Òµå¿¡ Á¤ÀÇÇÏ°í
-		 * ÇÏÀ§Å¬·¡½º¿¡¼­ ¾Ë°í¸®Áò ±¸Á¶ÀÇ º¯°æ¾øÀÌ ¾Ë°í¸®ÁòÀ» ÀçÁ¤ÀÇÇÏ´Â ÆÐÅÏ
+		 * ì•Œê³ ë¦¬ì¦˜ì˜ êµ¬ì¡°ë¥¼ ë©”ì†Œë“œì— ì •ì˜í•˜ê³ 
+		 * í•˜ìœ„í´ëž˜ìŠ¤ì—ì„œ ì•Œê³ ë¦¬ì¦˜ êµ¬ì¡°ì˜ ë³€ê²½ì—†ì´ ì•Œê³ ë¦¬ì¦˜ì„ ìž¬ì •ì˜í•˜ëŠ” íŒ¨í„´
 		 */
 		
-		/* »ç¿ëÇÏ±â ÀûÇÕÇÑ »óÈ²
+		/* ì‚¬ìš©í•˜ê¸° ì í•©í•œ ìƒí™©
 		 * 
-		 * ±¸ÇöÇÏ·Á´Â ¾Ë°í¸®ÁòÀÌ ÀÏÁ¤ÇÑ ÇÁ·Î¼¼½º°¡ ÀÖ´Ù.
-		 * ±¸ÇöÇÏ·Á´Â ¾Ë°í¸®ÁòÀÌ º¯°æ°¡´É¼ºÀÌ ÀÖ´Ù.
+		 * êµ¬í˜„í•˜ë ¤ëŠ” ì•Œê³ ë¦¬ì¦˜ì´ ì¼ì •í•œ í”„ë¡œì„¸ìŠ¤ê°€ ìžˆë‹¤.
+		 * êµ¬í˜„í•˜ë ¤ëŠ” ì•Œê³ ë¦¬ì¦˜ì´ ë³€ê²½ê°€ëŠ¥ì„±ì´ ìžˆë‹¤.
 		 */
 		
-		/* »ç¿ëÇÏ´Â ´Ü°è
+		/* ì‚¬ìš©í•˜ëŠ” ë‹¨ê³„
 		 * 
-		 * ¾Ë°í¸®ÁòÀ» ¿©·¯ ´Ü°è·Î ³ª´«´Ù.
-		 * ³ª´²Áø ¾Ë°í¸®ÁòÀÇ ´Ü°è¸¦ ¸Þ¼Òµå·Î ¼±¾ðÇÑ´Ù.
-		 * ¾Ë°í¸®ÁòÀ» ¼öÇàÇÒ ÅÛÇÃ¸´ ¸Þ¼Òµå¸¦ ¸¸µç´Ù.
-		 * ÇÏÀ§Å¬·¡½º¿¡¼­ ³ª´²Áø ¸Þ¼ÒµåµéÀ» ±¸ÇöÇÑ´Ù.
+		 * ì•Œê³ ë¦¬ì¦˜ì„ ì—¬ëŸ¬ ë‹¨ê³„ë¡œ ë‚˜ëˆˆë‹¤.
+		 * ë‚˜ëˆ ì§„ ì•Œê³ ë¦¬ì¦˜ì˜ ë‹¨ê³„ë¥¼ ë©”ì†Œë“œë¡œ ì„ ì–¸í•œë‹¤.
+		 * ì•Œê³ ë¦¬ì¦˜ì„ ìˆ˜í–‰í•  í…œí”Œë¦¿ ë©”ì†Œë“œë¥¼ ë§Œë“ ë‹¤.
+		 * í•˜ìœ„í´ëž˜ìŠ¤ì—ì„œ ë‚˜ëˆ ì§„ ë©”ì†Œë“œë“¤ì„ êµ¬í˜„í•œë‹¤.
 		 */
 		
 		AbstGameConnectHelper helper = new DefaultGameConnectHelper();
-		//µ¿ÀÏÇÑ ÆÐÅ°Áö°¡ ¾Æ´Ï¸é protected°¡ Á¢±ÙµÇÁö ¾Ê´Â´Ù.
-		helper.requestConnection("¾ÆÀÌµð ¾ÏÈ£ µî Á¢¼ÓÁ¤º¸");
+		//ë™ì¼í•œ íŒ¨í‚¤ì§€ê°€ ì•„ë‹ˆë©´ protectedê°€ ì ‘ê·¼ë˜ì§€ ì•ŠëŠ”ë‹¤.
+		helper.requestConnection("ì•„ì´ë”” ì•”í˜¸ ë“± ì ‘ì†ì •ë³´");
 	}
 }

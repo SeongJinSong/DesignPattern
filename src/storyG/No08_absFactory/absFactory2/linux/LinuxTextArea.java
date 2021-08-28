@@ -7,7 +7,7 @@ public class LinuxTextArea implements TextArea {
 	@Override
 	public String getText() {
 		// TODO Auto-generated method stub
-		return "¸®´ª½º ÅØ½ºÆ® ¿¡¾î¸®¾î";
+		return "ë¦¬ëˆ…ìŠ¤ í…ìŠ¤íŠ¸ ì—ì–´ë¦¬ì–´";
 	}
 
 }

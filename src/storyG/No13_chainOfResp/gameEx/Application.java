@@ -13,8 +13,8 @@ public class Application {
 		
 		System.out.println(attack.getAmount());
 		
-		/* Æ÷ÀÎÆ®
-		 * µ¿Àû ÇÒ´çÀÌ °¡´ÉÇØ¾ß ÇÑ´Ù.
+		/* í¬ì¸íŠ¸
+		 * ë™ì  í• ë‹¹ì´ ê°€ëŠ¥í•´ì•¼ í•œë‹¤.
 		 */
 		Defense defense = new Defense() {
 			
@@ -24,11 +24,11 @@ public class Application {
 				attack.setAmount(amount -= 50);
 			}
 		};
-		//Ãß°¡ Âø¿ë
+		//ì¶”ê°€ ì°©ìš©
 		armor2.setNextDefense(defense);
 		
 		attack.setAmount(100);
-		// µÎ¹øÂ° °ø°İ
+		// ë‘ë²ˆì§¸ ê³µê²©
 		armor1.defense(attack);
 		System.out.println(attack.getAmount());
 	}

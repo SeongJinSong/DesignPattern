@@ -9,11 +9,11 @@ public class SystemSpeaker {
 	
 	public static SystemSpeaker getInstance() {
 		if(instance == null) {
-			// ½Ã½ºÅÛ ½ºÇÇÄ¿
+			// ì‹œìŠ¤í…œ ìŠ¤í”¼ì»¤
 			instance = new SystemSpeaker();
-			System.out.println("»õ·Î »ı¼º");
+			System.out.println("ìƒˆë¡œ ìƒì„±");
 		}
-		else System.out.println("ÀÌ¹Ì »ı¼º");
+		else System.out.println("ì´ë¯¸ ìƒì„±");
 		return instance;
 	}
 

@@ -7,7 +7,7 @@ public class WinTextArea implements TextArea {
 	@Override
 	public String getText() {
 		// TODO Auto-generated method stub
-		return "À©µµ¿ì ÅØ½ºÆ® ¿¡¾î¸®¾î";
+		return "ìœˆë„ìš° í…ìŠ¤íŠ¸ ì—ì–´ë¦¬ì–´";
 	}
 
 }

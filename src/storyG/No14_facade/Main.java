@@ -4,8 +4,8 @@ import storyG.No14_facade.system.Facade;
 
 public class Main {
 	/* 
-	 * º¹ÀâÇÑ °úÁ¤À» °£´ÜÇÏ°Ô Ç¥ÇöÇÏ´Â ÆÛ»çµå ÆĞÅÏÀ» ÀÌÇØÇÑ´Ù.
-	 * Å°¿öµå : ´Ü¼øÇÑ Á¢±Ù
+	 * ë³µì¡í•œ ê³¼ì •ì„ ê°„ë‹¨í•˜ê²Œ í‘œí˜„í•˜ëŠ” í¼ì‚¬ë“œ íŒ¨í„´ì„ ì´í•´í•œë‹¤.
+	 * í‚¤ì›Œë“œ : ë‹¨ìˆœí•œ ì ‘ê·¼
 	 */
 	public static void main(String[] args) {
 		Facade facade = new Facade();

@@ -3,11 +3,11 @@ package storyG.No09_bridge.pattern;
 public class soundMCF  implements MorseCodeFunction {
 	@Override
 	public void dot() {
-		System.out.print("»å~");
+		System.out.print("ì‚£~");
 	}
 	@Override
 	public void dash() {
-		System.out.print("µğÀÌÀÌ~");
+		System.out.print("ë””ì´ì´~");
 	}
 	@Override
 	public void space() {

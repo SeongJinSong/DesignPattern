@@ -1,6 +1,6 @@
 package storyG.No11_decorator;
 
-/* ½ÇÁúÀûÀÎ Àå½Ä ÀÎ½ºÅÏ½º ¹× Á¤ÀÇÀÇ¸ç, Ã¥ÀÓÀÌ Ãß°¡µÇ´Â ºÎºĞ*/
+/* ì‹¤ì§ˆì ì¸ ì¥ì‹ ì¸ìŠ¤í„´ìŠ¤ ë° ì •ì˜ì˜ë©°, ì±…ì„ì´ ì¶”ê°€ë˜ëŠ” ë¶€ë¶„*/
 public class Milk extends AbstAdding {
 
 	public Milk(IBeverage meterial) {

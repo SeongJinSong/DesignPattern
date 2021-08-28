@@ -7,7 +7,7 @@ public class WinButton implements Button {
 	@Override
 	public void Click() {
 		// TODO Auto-generated method stub
-		System.out.println("À©µµ¿ì ¹öÆ°");
+		System.out.println("ìœˆë„ìš° ë²„íŠ¼");
 	}
 
 }

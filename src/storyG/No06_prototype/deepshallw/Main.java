@@ -7,7 +7,7 @@ public class Main {
 		navi.setAge(3);
 		navi.setAgeInfo(new Age(2012, 3));
 		
-		//ÁÖ¼Ò°ªÀ» º¹»çÇÏÀº shallow copy
+		//ì£¼ì†Œê°’ì„ ë³µì‚¬í•˜ì€ shallow copy
 		Cat yo = navi;
 		yo.setName("yo");
 		yo.setAge(1);
@@ -18,9 +18,9 @@ public class Main {
 		yo2.setAge(2);
 		yo2.setAgeInfo(new Age(2014, 2));
 		
-		Cat yo3 = navi.copy(); // deap copy°¡ ÀÏ¾î³ªÁö ¾Ê¾Ò´Ù.
-		//primitive typeÀº ±íÀºº¹»ç¸¦ Áö¿øÇØÁØ´Ù.
-		//Å¬·¡½º´Â Á÷Á¢ ±íÀº º¹»ç¸¦ ÇØÁÖ¾î¾Æ¾ß ÇÑ´Ù.
+		Cat yo3 = navi.copy(); // deap copyê°€ ì¼ì–´ë‚˜ì§€ ì•Šì•˜ë‹¤.
+		//primitive typeì€ ê¹Šì€ë³µì‚¬ë¥¼ ì§€ì›í•´ì¤€ë‹¤.
+		//í´ë˜ìŠ¤ëŠ” ì§ì ‘ ê¹Šì€ ë³µì‚¬ë¥¼ í•´ì£¼ì–´ì•„ì•¼ í•œë‹¤.
 		yo3.setName("yo3");
 		yo3.setAge(2);
 		yo3.getAgeInfo().setYear(2015);

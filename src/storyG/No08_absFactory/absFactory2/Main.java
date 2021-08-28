@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		GuiFac fac = FactoryInstance.getGuiFac();
 		
-		/* ¾Æ·¡¿Í °°Àº ÄÚµùÀ» ÇÏ¸é ¸ÁÇÏ´Â °ÍÀÌ´Ù. */
+		/* ì•„ë˜ì™€ ê°™ì€ ì½”ë”©ì„ í•˜ë©´ ë§í•˜ëŠ” ê²ƒì´ë‹¤. */
 		//LinuxGuiFactory fac = new LinuxGuiFactory();
 		//MacGuiFactory fac = new MacGuiFactory();
 		//WinGuiFactory fac = new WinGuiFactory();

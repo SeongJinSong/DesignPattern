@@ -1,8 +1,8 @@
 package storyG.No20_proxy;
 
 public interface Subject {
-	//¸®¼Ò½º°¡ Àû°Ô µå´À ÀÏ
+	//ë¦¬ì†ŒìŠ¤ê°€ ì ê²Œ ë“œëŠ ì¼
 	void action1();
-	//¸®¼Ò½º°¡ ¸¹ÀÌ µå´Â ÀÏ, ³×Æ®¿öÅ© ¸Þ¸ð¸®
+	//ë¦¬ì†ŒìŠ¤ê°€ ë§Žì´ ë“œëŠ” ì¼, ë„¤íŠ¸ì›Œí¬ ë©”ëª¨ë¦¬
 	void action2();
 }

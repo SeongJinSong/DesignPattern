@@ -5,6 +5,6 @@ import storyG.No04_factoryM.framework.Item;
 public class HpPotion implements Item {
 	public void use() {
 		// TODO Auto-generated method stub
-		System.out.println("Ã¼·Â È¸º¹!");
+		System.out.println("ì²´ë ¥ íšŒë³µ!");
 	}
 }

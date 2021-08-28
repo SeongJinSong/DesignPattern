@@ -12,7 +12,7 @@ public class Proxy implements Subject{
 	@Override
 	public void action1() {
 		// TODO Auto-generated method stub
-		System.out.println("°£´ÜÇÑ ¾÷¹« by Proxy");
+		System.out.println("ê°„ë‹¨í•œ ì—…ë¬´ by Proxy");
 	}
 	@Override
 	public void action2() {

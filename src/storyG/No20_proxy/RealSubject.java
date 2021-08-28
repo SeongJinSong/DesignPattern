@@ -4,11 +4,11 @@ public class RealSubject implements Subject{
 	@Override
 	public void action1() {
 		// TODO Auto-generated method stub
-		System.out.println("°£´ÜÇÑ ¾÷¹« by Real");
+		System.out.println("ê°„ë‹¨í•œ ì—…ë¬´ by Real");
 	}
 	@Override
 	public void action2() {
 		// TODO Auto-generated method stub
-		System.out.println("º¹ÀâÇÑ ¾÷¹« by Real");
+		System.out.println("ë³µìž¡í•œ ì—…ë¬´ by Real");
 	}
 }

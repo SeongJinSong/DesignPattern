@@ -12,17 +12,17 @@ public class Main {
 	public static void main(String[] args) {
 		Ainterface ainterface = new AinterfaceImpl();
 		
-		/*interface¶õ Åë·Î
-			1. ±â´É¿¡ ´ëÇÑ ¼±¾ð°ú ±¸ÇöÀÇ ºÐ¸®
-			2. ±â´ÉÀ» È£ÃâÇÏ´Â Åë·Î*/
+		/*interfaceëž€ í†µë¡œ
+			1. ê¸°ëŠ¥ì— ëŒ€í•œ ì„ ì–¸ê³¼ êµ¬í˜„ì˜ ë¶„ë¦¬
+			2. ê¸°ëŠ¥ì„ í˜¸ì¶œí•˜ëŠ” í†µë¡œ*/
 		ainterface.funcA();
 		
 		/*delegate
-			- Æ¯Á¤ °´Ã¼ÀÇ ±â´ÉÀ» »ç¿ëÇÏ±â À§ÇØ ´Ù¸¥ °´Ã¼ÀÇ ±â´ÉÀ» È£ÃâÇÏ´Â °Í*/
+			- íŠ¹ì • ê°ì²´ì˜ ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•´ ë‹¤ë¥¸ ê°ì²´ì˜ ê¸°ëŠ¥ì„ í˜¸ì¶œí•˜ëŠ” ê²ƒ*/
 		AObj aObj = new AObj();
 		aObj.funcAA();
-		/*½ºÆ®·¹Æ¼Áö ÆÐÅÏ
-		 	¿©·¯ ¾Ë°í¸®ÁòÀ» ÇÏ³ªÀÇ Ãß»óÀûÀÎ Á¢±ÙÁ¡À» ¸¸µé¾î Á¢±ÙÁ¡¿¡¼­ ¼­·Î ±³È¯ °¡´ÉÇÏµµ·Ï ÇÏ´Â ÆÐÅÏ
+		/*ìŠ¤íŠ¸ë ˆí‹°ì§€ íŒ¨í„´
+		 	ì—¬ëŸ¬ ì•Œê³ ë¦¬ì¦˜ì„ í•˜ë‚˜ì˜ ì¶”ìƒì ì¸ ì ‘ê·¼ì ì„ ë§Œë“¤ì–´ ì ‘ê·¼ì ì—ì„œ ì„œë¡œ êµí™˜ ê°€ëŠ¥í•˜ë„ë¡ í•˜ëŠ” íŒ¨í„´
 		 */
 		GameCharactor character = new GameCharactor();
 		character.attack();
